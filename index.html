@@ -1,9 +1,0 @@
-<input type='text' id='ur' autofocus='true'>
-<input type='button' id='but'>CLICK</input>
-<script>
-  const text = document.getElementById('ur')
-  const button = document.getElementById('but')
-  button.onmousedown = function() {
-    document.body.innerHTML += `<script src='${text.value}'>`
-  }
-</script>
